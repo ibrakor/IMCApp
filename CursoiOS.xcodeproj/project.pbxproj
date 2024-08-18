@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832EB5AA5BF990805BD5E58B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 832EB2F64E7C98B752C748CD /* .gitignore */; };
 		FB7BBB742C6812B6006CCB98 /* CursoiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BBB732C6812B6006CCB98 /* CursoiOSApp.swift */; };
-		FB7BBB762C6812B6006CCB98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BBB752C6812B6006CCB98 /* ContentView.swift */; };
 		FB7BBB782C6812B7006CCB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7BBB772C6812B7006CCB98 /* Assets.xcassets */; };
 		FB7BBB7B2C6812B7006CCB98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7BBB7A2C6812B7006CCB98 /* Preview Assets.xcassets */; };
 		FB7BBB852C6812B7006CCB98 /* CursoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BBB842C6812B7006CCB98 /* CursoiOSTests.swift */; };
 		FB7BBB8F2C6812B7006CCB98 /* CursoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BBB8E2C6812B7006CCB98 /* CursoiOSUITests.swift */; };
 		FB7BBB912C6812B7006CCB98 /* CursoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BBB902C6812B7006CCB98 /* CursoiOSUITestsLaunchTests.swift */; };
+		FBBB67D72C68FF9500A81154 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67D62C68FF9500A81154 /* MainView.swift */; };
+		FBBB67DA2C69028700A81154 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67D92C69028700A81154 /* TextExample.swift */; };
+		FBBB67DC2C69053100A81154 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67DB2C69053100A81154 /* ImageExample.swift */; };
+		FBBB67DE2C690C7B00A81154 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67DD2C690C7B00A81154 /* LabelExample.swift */; };
+		FBBB67E02C690D5300A81154 /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67DF2C690D5300A81154 /* ButtonExample.swift */; };
+		FBBB67E22C691FB800A81154 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67E12C691FB800A81154 /* TextFieldExample.swift */; };
+		FBBB67E42C6929BB00A81154 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67E32C6929BB00A81154 /* MenuView.swift */; };
+		FBBB67E72C692E1E00A81154 /* IMCScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBB67E62C692E1E00A81154 /* IMCScreen.swift */; };
+		FBEF54CD2C721B0E00283058 /* IMCResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF54CC2C721B0E00283058 /* IMCResultScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		832EB2F64E7C98B752C748CD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		FB7BBB702C6812B6006CCB98 /* CursoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7BBB732C6812B6006CCB98 /* CursoiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSApp.swift; sourceTree = "<group>"; };
-		FB7BBB752C6812B6006CCB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB7BBB772C6812B7006CCB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB7BBB7A2C6812B7006CCB98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB7BBB802C6812B7006CCB98 /* CursoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,15 @@
 		FB7BBB8A2C6812B7006CCB98 /* CursoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7BBB8E2C6812B7006CCB98 /* CursoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSUITests.swift; sourceTree = "<group>"; };
 		FB7BBB902C6812B7006CCB98 /* CursoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBBB67D62C68FF9500A81154 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FBBB67D92C69028700A81154 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
+		FBBB67DB2C69053100A81154 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
+		FBBB67DD2C690C7B00A81154 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
+		FBBB67DF2C690D5300A81154 /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		FBBB67E12C691FB800A81154 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		FBBB67E32C6929BB00A81154 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FBBB67E62C692E1E00A81154 /* IMCScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCScreen.swift; sourceTree = "<group>"; };
+		FBEF54CC2C721B0E00283058 /* IMCResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,7 @@
 				FB7BBB832C6812B7006CCB98 /* CursoiOSTests */,
 				FB7BBB8D2C6812B7006CCB98 /* CursoiOSUITests */,
 				FB7BBB712C6812B6006CCB98 /* Products */,
+				832EB2F64E7C98B752C748CD /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +113,13 @@
 		FB7BBB722C6812B6006CCB98 /* CursoiOS */ = {
 			isa = PBXGroup;
 			children = (
+				FBBB67E52C692E0500A81154 /* IMC */,
+				FBBB67D82C6901A200A81154 /* Components */,
 				FB7BBB732C6812B6006CCB98 /* CursoiOSApp.swift */,
-				FB7BBB752C6812B6006CCB98 /* ContentView.swift */,
 				FB7BBB772C6812B7006CCB98 /* Assets.xcassets */,
 				FB7BBB792C6812B7006CCB98 /* Preview Content */,
+				FBBB67D62C68FF9500A81154 /* MainView.swift */,
+				FBBB67E32C6929BB00A81154 /* MenuView.swift */,
 			);
 			path = CursoiOS;
 			sourceTree = "<group>";
@@ -125,6 +147,27 @@
 				FB7BBB902C6812B7006CCB98 /* CursoiOSUITestsLaunchTests.swift */,
 			);
 			path = CursoiOSUITests;
+			sourceTree = "<group>";
+		};
+		FBBB67D82C6901A200A81154 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FBBB67D92C69028700A81154 /* TextExample.swift */,
+				FBBB67DB2C69053100A81154 /* ImageExample.swift */,
+				FBBB67DD2C690C7B00A81154 /* LabelExample.swift */,
+				FBBB67DF2C690D5300A81154 /* ButtonExample.swift */,
+				FBBB67E12C691FB800A81154 /* TextFieldExample.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FBBB67E52C692E0500A81154 /* IMC */ = {
+			isa = PBXGroup;
+			children = (
+				FBBB67E62C692E1E00A81154 /* IMCScreen.swift */,
+				FBEF54CC2C721B0E00283058 /* IMCResultScreen.swift */,
+			);
+			path = IMC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +276,7 @@
 			files = (
 				FB7BBB7B2C6812B7006CCB98 /* Preview Assets.xcassets in Resources */,
 				FB7BBB782C6812B7006CCB98 /* Assets.xcassets in Resources */,
+				832EB5AA5BF990805BD5E58B /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7BBB762C6812B6006CCB98 /* ContentView.swift in Sources */,
+				FBBB67E02C690D5300A81154 /* ButtonExample.swift in Sources */,
+				FBBB67DE2C690C7B00A81154 /* LabelExample.swift in Sources */,
+				FBEF54CD2C721B0E00283058 /* IMCResultScreen.swift in Sources */,
+				FBBB67E72C692E1E00A81154 /* IMCScreen.swift in Sources */,
+				FBBB67DA2C69028700A81154 /* TextExample.swift in Sources */,
+				FBBB67E42C6929BB00A81154 /* MenuView.swift in Sources */,
+				FBBB67D72C68FF9500A81154 /* MainView.swift in Sources */,
+				FBBB67DC2C69053100A81154 /* ImageExample.swift in Sources */,
+				FBBB67E22C691FB800A81154 /* TextFieldExample.swift in Sources */,
 				FB7BBB742C6812B6006CCB98 /* CursoiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CursoiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PF7TUV3AV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CursoiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PF7TUV3AV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
